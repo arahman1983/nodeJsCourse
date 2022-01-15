@@ -3,7 +3,6 @@ const message = require('./routs/message');
 const notFound = require('./routs/404');
 const result = require('./routs/result')
 
-
 function routHandler(req, res) {
   const url = req.url;
   const method = req.method;
